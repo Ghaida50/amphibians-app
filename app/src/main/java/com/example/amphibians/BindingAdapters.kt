@@ -17,6 +17,7 @@ package com.example.amphibians
 
 import android.view.View
 import android.widget.ImageView
+import androidx.core.net.toUri
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.amphibians.network.Amphibian
@@ -54,3 +55,4 @@ fun bindStatus(statusImageView: ImageView, status: AmphibianApiStatus?) {
         }
     }
 }
+
